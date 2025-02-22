@@ -27,7 +27,6 @@
   "npm": "11.x"
   },
 
-
   "eslintConfig": {
     "extends": [
       "react-app",
