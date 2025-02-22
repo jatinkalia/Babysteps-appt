@@ -10,7 +10,7 @@ const DoctorList = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('http://localhost:5000/doctors')
+    axios.get(`${process.env.API_URL}/doctors`)
       .then(response => {
         setDoctors(response.data);
         setLoading(false);
